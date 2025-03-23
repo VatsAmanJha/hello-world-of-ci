@@ -34,7 +34,7 @@ This project demonstrates how to run a **FastAPI** app on **GitHub Actions** and
 ## 📝 GitHub Actions Workflow
 
 The workflow is in `.github/workflows/run-api.yml` and does the following:
-- Installs **Python 12**.
+- Installs **Python 3.11.4**.
 - Installs dependencies.
 - Runs FastAPI.
 - Starts **ngrok** to expose the app.
